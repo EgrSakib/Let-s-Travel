@@ -23,9 +23,10 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
-/* Nav-Bar Design */
+/* Nav-Bar Design section*/
 
 .logo {
     display: flex;
@@ -334,6 +335,7 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    /* padding: 0 10px 0 20px; */
     padding: 0px 80px 0px 35px;
 }
 
@@ -394,5 +396,13 @@ hr {
 
 /* For small device */
 @media screen and (max-width: 600px) {
-    
+    header{
+        padding: 10px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .choose-img-container, .destantion-image p, .tour-container, .nav, .banner-form{
+        flex-direction: column;
+    }
 }
