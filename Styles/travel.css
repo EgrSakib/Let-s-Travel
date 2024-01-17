@@ -426,4 +426,15 @@ hr{
         flex-direction: column;
         width: 100%;
     }
+    .newsletter-container{
+        flex-direction: column;
+        width: 100%;
+        padding: auto;
+    }
+    .tour{
+        width: 100%;
+    }
+    footer{
+        padding: none;
+    }
 }
