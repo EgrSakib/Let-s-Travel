@@ -318,7 +318,7 @@ h2 {
 
 .newsletter-right {
     padding: 20px;
-
+    border: 1px solid #FF5400;
 }
 
 .newsletter-heading {
@@ -327,7 +327,7 @@ h2 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin: 40px auto 16px 40px;
+    margin: 40px auto;
 }
 
 .newsletter-description {
@@ -336,7 +336,7 @@ h2 {
     font-weight: 400;
     line-height: 26px;
     /* padding: 0 10px 0 20px; */
-    padding: 0px 80px 0px 35px;
+    padding: 0px auto;
 }
 
 .newsletter-img {
@@ -366,34 +366,54 @@ h2 {
 }
 
 /* Footer Section */
-footer {
-    display: flex;
-    gap: 100px;
-    background: rgba(19, 19, 24, 0.05);
-    margin-top: 100px;
-    padding: 130px 200px;
-}
 
-.footer-column {
-    width: 50%;
-}
-
-.footer-handle {
-    display: flex;
-    justify-content: center;
+.logo{
     align-items: center;
+    justify-content: center;
+}
+.footer-column {
+    /* width: 1440px;
+    height: 502px; */
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 150px;
 }
 
-.social-links a {
-    margin-right: 25px;
+.footer-column .logo {
+    justify-content: center;
 }
 
-hr {
-    width: 872px;
-    height: 1px;
-    background: rgba(19, 19, 24, 0.10);
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 5px 200px;
 }
 
+.social-links{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.fa-brands{
+    margin: 0 10px;
+} 
+
+hr{
+    margin: 0 auto 20px auto;
+
+    width: 60%;
+    
+}
+
+.copyright{
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
 /* For small device */
 @media screen and (max-width: 600px) {
     header{
