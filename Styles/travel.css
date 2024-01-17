@@ -424,5 +424,6 @@ hr{
     }
     .choose-img-container, .destantion-image p, .tour-container, .nav, .banner-form{
         flex-direction: column;
+        width: 100%;
     }
 }
